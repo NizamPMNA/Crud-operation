@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path('create/', views.Create, name = 'create'),
-    path('list/',views.List,name = 'list'),
+    path('',views.List,name = 'list'),
     path('edit/<pk>', views.Edit,name = 'edit'),
     path('delete/<pk>', views.Delete,name = 'delete'),
     # path('cbv/', views.CBView.as_view()),
