@@ -1,0 +1,21 @@
+.table{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.e_d{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+.add{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+   
+    
+}
+h2{
+    background-color: #a7a7a7;
+    height: 45px;
+}
