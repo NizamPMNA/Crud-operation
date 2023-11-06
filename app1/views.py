@@ -16,7 +16,7 @@ def Create(request):
     else:
         frm = LanguageForm()
 
-    return render(request,'create.html',{'frm':frm})
+    return render(request,'index.html',{'frm':frm})
 
 def List(request):
     language_set = LanguageInfo.objects.all().order_by('id')
@@ -42,7 +42,7 @@ def Edit(request,pk):
         
         frm = LanguageForm()
 
-    return render(request,'create.html',{'frm':frm})
+    return render(request,'index.html',{'frm':frm})
 
 def Delete(request,pk):
     instance = LanguageInfo.objects.get(pk=pk)
